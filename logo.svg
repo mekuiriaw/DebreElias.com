@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="520" viewBox="0 0 680 520" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Debre Elias Woreda Official Logo</title>
+  <desc>Official emblem and logo of Debre Elias Woreda, Misraq Gojjam Zone, Amhara Region, Ethiopia</desc>
+
+  <defs>
+    <linearGradient id="mtnGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2D6A4F"/>
+      <stop offset="100%" stop-color="#1B4332"/>
+    </linearGradient>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8F4F0"/>
+      <stop offset="100%" stop-color="#C8E6D8"/>
+    </linearGradient>
+    <linearGradient id="riverGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1565C0"/>
+      <stop offset="50%" stop-color="#1976D2"/>
+      <stop offset="100%" stop-color="#0D47A1"/>
+    </linearGradient>
+    <linearGradient id="wheatGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F9A825"/>
+      <stop offset="100%" stop-color="#F57F17"/>
+    </linearGradient>
+    <clipPath id="circleClip">
+      <circle cx="340" cy="225" r="158"/>
+    </clipPath>
+  </defs>
+
+  <!-- Outer rings -->
+  <circle cx="340" cy="225" r="196" fill="none" stroke="#8B2020" stroke-width="2.5"/>
+  <circle cx="340" cy="225" r="188" fill="none" stroke="#C9933A" stroke-width="1"/>
+  <circle cx="340" cy="225" r="184" fill="none" stroke="#C9933A" stroke-width="0.5"/>
+
+  <!-- Star dots -->
+  <g fill="#C9933A">
+    <circle cx="340" cy="31"  r="3.5"/><circle cx="340" cy="419" r="3.5"/>
+    <circle cx="144" cy="225" r="3.5"/><circle cx="536" cy="225" r="3.5"/>
+    <circle cx="202" cy="78"  r="2.5"/><circle cx="478" cy="78"  r="2.5"/>
+    <circle cx="202" cy="372" r="2.5"/><circle cx="478" cy="372" r="2.5"/>
+    <circle cx="152" cy="148" r="2"/><circle cx="528" cy="148" r="2"/>
+    <circle cx="152" cy="302" r="2"/><circle cx="528" cy="302" r="2"/>
+  </g>
+
+  <!-- Scene background -->
+  <circle cx="340" cy="225" r="178" fill="#EAF7F0"/>
+  <rect x="162" y="47" width="356" height="356" fill="url(#skyGrad)" clip-path="url(#circleClip)"/>
+
+  <!-- Sun -->
+  <circle cx="420" cy="110" r="22" fill="#FDD835" clip-path="url(#circleClip)"/>
+  <circle cx="420" cy="110" r="18" fill="#FFEE58" clip-path="url(#circleClip)"/>
+  <g stroke="#FDD835" stroke-width="1.5" stroke-linecap="round" clip-path="url(#circleClip)">
+    <line x1="420" y1="84" x2="420" y2="76"/><line x1="420" y1="136" x2="420" y2="144"/>
+    <line x1="394" y1="110" x2="386" y2="110"/><line x1="446" y1="110" x2="454" y2="110"/>
+    <line x1="402" y1="92" x2="396" y2="86"/><line x1="438" y1="128" x2="444" y2="134"/>
+    <line x1="438" y1="92" x2="444" y2="86"/><line x1="402" y1="128" x2="396" y2="134"/>
+  </g>
+
+  <!-- Hills & Mountains -->
+  <path d="M162 270 Q200 230 240 250 Q280 210 320 240 Q360 220 400 245 Q440 210 480 235 Q510 220 536 240 L536 403 L162 403 Z" fill="#40916C" clip-path="url(#circleClip)" opacity="0.5"/>
+  <path d="M162 310 L220 200 L280 310 Z" fill="url(#mtnGrad)" clip-path="url(#circleClip)"/>
+  <path d="M240 310 L310 175 L380 310 Z" fill="url(#mtnGrad)" clip-path="url(#circleClip)"/>
+  <path d="M340 310 L400 205 L460 310 Z" fill="url(#mtnGrad)" clip-path="url(#circleClip)"/>
+  <path d="M420 310 L480 225 L536 310 Z" fill="url(#mtnGrad)" clip-path="url(#circleClip)"/>
+  <path d="M220 200 L205 230 L235 230 Z" fill="white" opacity="0.7" clip-path="url(#circleClip)"/>
+  <path d="M310 175 L292 210 L328 210 Z" fill="white" opacity="0.7" clip-path="url(#circleClip)"/>
+
+  <!-- Ground -->
+  <rect x="162" y="310" width="374" height="93" fill="#33691E" clip-path="url(#circleClip)"/>
+
+  <!-- Abay River -->
+  <path d="M162 330 Q210 318 250 332 Q295 348 340 330 Q385 312 430 330 Q475 348 536 328 L536 360 Q480 375 430 355 Q385 338 340 357 Q295 375 250 358 Q210 342 162 358 Z" fill="url(#riverGrad)" opacity="0.9" clip-path="url(#circleClip)"/>
+  <path d="M190 340 Q230 332 270 342" fill="none" stroke="white" stroke-width="1" opacity="0.4" clip-path="url(#circleClip)"/>
+  <path d="M360 334 Q400 326 445 338" fill="none" stroke="white" stroke-width="1" opacity="0.4" clip-path="url(#circleClip)"/>
+
+  <!-- Wheat left -->
+  <g clip-path="url(#circleClip)">
+    <line x1="180" y1="310" x2="180" y2="365" stroke="#558B2F" stroke-width="1.5"/>
+    <ellipse cx="180" cy="304" rx="5" ry="8" fill="url(#wheatGrad)"/>
+    <line x1="192" y1="310" x2="192" y2="368" stroke="#558B2F" stroke-width="1.5"/>
+    <ellipse cx="192" cy="303" rx="5" ry="8" fill="url(#wheatGrad)"/>
+    <line x1="204" y1="310" x2="204" y2="365" stroke="#558B2F" stroke-width="1.5"/>
+    <ellipse cx="204" cy="303" rx="5" ry="9" fill="url(#wheatGrad)"/>
+  </g>
+
+  <!-- Wheat right -->
+  <g clip-path="url(#circleClip)">
+    <line x1="480" y1="310" x2="480" y2="365" stroke="#558B2F" stroke-width="1.5"/>
+    <ellipse cx="480" cy="304" rx="5" ry="8" fill="url(#wheatGrad)"/>
+    <line x1="492" y1="310" x2="492" y2="368" stroke="#558B2F" stroke-width="1.5"/>
+    <ellipse cx="492" cy="303" rx="5" ry="8" fill="url(#wheatGrad)"/>
+    <line x1="504" y1="310" x2="504" y2="365" stroke="#558B2F" stroke-width="1.5"/>
+    <ellipse cx="504" cy="303" rx="5" ry="9" fill="url(#wheatGrad)"/>
+  </g>
+
+  <!-- Orthodox Cross -->
+  <g transform="translate(340,240)">
+    <rect x="-4" y="-25" width="8"  height="54" rx="1.5" fill="#C9933A"/>
+    <rect x="-25" y="-4" width="50" height="8"  rx="1.5" fill="#C9933A"/>
+    <rect x="-10" y="-28" width="20" height="5" rx="1"   fill="#C9933A"/>
+    <rect x="-4" y="-25" width="8"  height="54" rx="1.5" fill="none" stroke="#E8B86D" stroke-width="0.5"/>
+    <rect x="-25" y="-4" width="50" height="8"  rx="1.5" fill="none" stroke="#E8B86D" stroke-width="0.5"/>
+    <circle cx="0" cy="0" r="5" fill="#8B2020"/>
+    <circle cx="0" cy="0" r="3" fill="#E8B86D"/>
+  </g>
+
+  <!-- Inner border -->
+  <circle cx="340" cy="225" r="158" fill="none" stroke="#8B2020" stroke-width="3"/>
+  <circle cx="340" cy="225" r="162" fill="none" stroke="#C9933A" stroke-width="1"/>
+
+  <!-- Circular text top -->
+  <path id="topArc" d="M 162 225 A 178 178 0 0 1 518 225" fill="none"/>
+  <text font-size="13.5" font-weight="600" letter-spacing="3" fill="#8B2020" font-family="Georgia, serif" text-anchor="middle">
+    <textPath href="#topArc" startOffset="50%">✦  DEBRE ELIAS WOREDA  ✦  MISRAQ GOJJAM ZONE  ✦</textPath>
+  </text>
+
+  <!-- Circular text bottom Amharic -->
+  <path id="botArc" d="M 175 280 A 178 178 0 0 0 505 280" fill="none"/>
+  <text font-size="14" font-weight="400" fill="#8B2020" font-family="'Noto Sans Ethiopic', serif" text-anchor="middle">
+    <textPath href="#botArc" startOffset="50%">✦  ደብረ ኤልያስ ወረዳ  ✦  ምስራቅ ጎጃም  ✦</textPath>
+  </text>
+
+  <!-- Garland accents -->
+  <g fill="#C9933A">
+    <ellipse cx="170" cy="215" rx="6" ry="10" transform="rotate(-30,170,215)"/>
+    <ellipse cx="164" cy="232" rx="5" ry="9"  transform="rotate(-20,164,232)"/>
+    <ellipse cx="162" cy="250" rx="5" ry="9"  transform="rotate(-10,162,250)"/>
+    <ellipse cx="510" cy="215" rx="6" ry="10" transform="rotate(30,510,215)"/>
+    <ellipse cx="516" cy="232" rx="5" ry="9"  transform="rotate(20,516,232)"/>
+    <ellipse cx="518" cy="250" rx="5" ry="9"  transform="rotate(10,518,250)"/>
+  </g>
+
+  <!-- Motto ribbon -->
+  <path d="M200 412 Q340 400 480 412 Q480 418 340 418 Q200 418 200 412 Z" fill="#8B2020" opacity="0.9"/>
+  <text x="340" y="416" text-anchor="middle" font-size="9.5" font-weight="600" fill="#FFECB3" font-family="Georgia, serif" letter-spacing="2">UNITY · PROSPERITY · HERITAGE</text>
+
+  <!-- Name badge -->
+  <rect x="110" y="418" width="460" height="58" rx="4" fill="#1A1008"/>
+  <rect x="110" y="418" width="460" height="58" rx="4" fill="none" stroke="#C9933A" stroke-width="1.5"/>
+  <rect x="116" y="424" width="448" height="46" rx="3" fill="none" stroke="#C9933A" stroke-width="0.5" opacity="0.4"/>
+  <text x="340" y="443" text-anchor="middle" font-size="17" font-weight="700" fill="#E8B86D" font-family="Georgia, serif" letter-spacing="2.5">DEBRE ELIAS WOREDA</text>
+  <text x="340" y="463" text-anchor="middle" font-size="11.5" font-weight="400" fill="#C9933A" font-family="Georgia, serif" letter-spacing="2">AMHARA REGION  ·  ETHIOPIA  ·  ኢትዮጵያ</text>
+
+  <!-- Ethiopia flag mini strip -->
+  <rect x="278" y="490" width="30" height="14" rx="1" fill="#078930"/>
+  <rect x="308" y="490" width="30" height="14" rx="1" fill="#FCDD09"/>
+  <rect x="338" y="490" width="30" height="14" rx="1" fill="#DA121A"/>
+  <rect x="278" y="490" width="90" height="14" rx="1" fill="none" stroke="#C9933A" stroke-width="0.5"/>
+
+  <text x="340" y="510" text-anchor="middle" font-size="10" fill="#8B6914" font-family="'Noto Sans Ethiopic', serif" letter-spacing="1">ፌዴራላዊ ዲሞክራሲያዊ ሪፐብሊክ ኢትዮጵያ</text>
+</svg>
